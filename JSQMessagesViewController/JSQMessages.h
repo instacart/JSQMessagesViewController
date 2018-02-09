@@ -16,8 +16,16 @@
 //  Released under an MIT license: http://opensource.org/licenses/MIT
 //
 
-#ifndef JSQMessages_JSQMessages_h
-#define JSQMessages_JSQMessages_h
+#import <UIKit/UIKit.h>
+
+//! Project version number for JSQMessages.
+FOUNDATION_EXPORT double JSQMessagesVersionNumber;
+
+//! Project version string for JSQMessages.
+FOUNDATION_EXPORT const unsigned char JSQMessagesVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <JSQMessages/PublicHeader.h>
+
 
 #import "JSQMessagesViewController.h"
 
@@ -40,6 +48,7 @@
 #import "JSQMessagesComposerTextView.h"
 #import "JSQMessagesInputToolbar.h"
 #import "JSQMessagesToolbarContentView.h"
+#import "JSQMessagesMediaPlaceholderView.h"
 
 //  Model
 #import "JSQMessage.h"
@@ -77,5 +86,4 @@
 #import "UIImage+JSQMessages.h"
 #import "UIView+JSQMessages.h"
 #import "NSBundle+JSQMessages.h"
-
-#endif
+#import "UIDevice+JSQMessages.h"
