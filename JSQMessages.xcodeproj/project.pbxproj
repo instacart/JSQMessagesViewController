@@ -100,8 +100,6 @@
 		88C00A501A44D4D800B004B3 /* JSQPhotoMediaItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C00A4F1A44D4D800B004B3 /* JSQPhotoMediaItemTests.m */; };
 		88C00A521A44D4E500B004B3 /* JSQVideoMediaItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C00A511A44D4E500B004B3 /* JSQVideoMediaItemTests.m */; };
 		88C4583019F5F7A0008FD427 /* JSQMessagesMediaViewBubbleImageMasker.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C4582F19F5F7A0008FD427 /* JSQMessagesMediaViewBubbleImageMasker.m */; };
-		A45AE408202DFC3200A2C88C /* JSQSystemSoundPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45AE407202DFC3200A2C88C /* JSQSystemSoundPlayer.framework */; };
-		A45AE409202E0B3A00A2C88C /* JSQSystemSoundPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45AE407202DFC3200A2C88C /* JSQSystemSoundPlayer.framework */; };
 		A45AE40B202E11A500A2C88C /* JSQSystemSoundPlayer+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F5519D8E01A00924534 /* JSQSystemSoundPlayer+JSQMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A45AE40C202E11B300A2C88C /* NSBundle+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 8873B60A1AB7B244006DF9AC /* NSBundle+JSQMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A45AE40D202E11B300A2C88C /* NSString+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F5719D8E01A00924534 /* NSString+JSQMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -149,6 +147,7 @@
 		A45AE437202E11FD00A2C88C /* JSQMessagesMediaPlaceholderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88078A9B19D8FEB5005B4595 /* JSQMessagesMediaPlaceholderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A45AE438202E11FD00A2C88C /* JSQMessagesToolbarContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25F9D19D8E01A00924534 /* JSQMessagesToolbarContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A45AE439202E11FD00A2C88C /* JSQMessagesTypingIndicatorFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A25FA019D8E01A00924534 /* JSQMessagesTypingIndicatorFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4B488DC21643A270087907E /* JSQSystemSoundPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B488DB21643A270087907E /* JSQSystemSoundPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -311,7 +310,7 @@
 		88C00A511A44D4E500B004B3 /* JSQVideoMediaItemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQVideoMediaItemTests.m; sourceTree = "<group>"; };
 		88C4582E19F5F7A0008FD427 /* JSQMessagesMediaViewBubbleImageMasker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSQMessagesMediaViewBubbleImageMasker.h; sourceTree = "<group>"; };
 		88C4582F19F5F7A0008FD427 /* JSQMessagesMediaViewBubbleImageMasker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQMessagesMediaViewBubbleImageMasker.m; sourceTree = "<group>"; };
-		A45AE407202DFC3200A2C88C /* JSQSystemSoundPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSQSystemSoundPlayer.framework; path = Carthage/Build/iOS/JSQSystemSoundPlayer.framework; sourceTree = "<group>"; };
+		A4B488DB21643A270087907E /* JSQSystemSoundPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSQSystemSoundPlayer.framework; path = Carthage/Build/iOS/Static/JSQSystemSoundPlayer.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -319,7 +318,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A45AE408202DFC3200A2C88C /* JSQSystemSoundPlayer.framework in Frameworks */,
+				A4B488DC21643A270087907E /* JSQSystemSoundPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +327,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				88445B4619E1B5290014F889 /* MapKit.framework in Frameworks */,
-				A45AE409202E0B3A00A2C88C /* JSQSystemSoundPlayer.framework in Frameworks */,
 				88445B4519E1B5210014F889 /* CoreLocation.framework in Frameworks */,
 				88445B3D19E0C0BE0014F889 /* QuartzCore.framework in Frameworks */,
 				88445B3C19E0C0B80014F889 /* CoreGraphics.framework in Frameworks */,
@@ -343,7 +341,7 @@
 		636A8663AEEE5C37B65C515D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A45AE407202DFC3200A2C88C /* JSQSystemSoundPlayer.framework */,
+				A4B488DB21643A270087907E /* JSQSystemSoundPlayer.framework */,
 				88445B3419E0AE4A0014F889 /* CoreGraphics.framework */,
 				88445B4119E1B50B0014F889 /* CoreLocation.framework */,
 				88445B3219E0AE450014F889 /* Foundation.framework */,
@@ -1056,6 +1054,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/Static",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GENERATE_PKGINFO_FILE = NO;
@@ -1064,7 +1063,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = mh_dylib;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hexedbits.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1096,6 +1095,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/Static",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GENERATE_PKGINFO_FILE = NO;
@@ -1104,7 +1104,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = mh_dylib;
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hexedbits.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
