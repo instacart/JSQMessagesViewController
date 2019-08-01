@@ -175,6 +175,7 @@
 		AFA809C657F6AFA99C7C026C /* JSQMessagesCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSQMessagesCollectionViewCell.m; sourceTree = "<group>"; };
 		BD2AF08AE9F2CDAABD00A304 /* JSQLocationMediaItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSQLocationMediaItem.m; sourceTree = "<group>"; };
 		C16E8AE54D9F7737B049B3E6 /* JSQMessagesCollectionViewFlowLayoutInvalidationContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSQMessagesCollectionViewFlowLayoutInvalidationContext.m; sourceTree = "<group>"; };
+		C190A3F4E5DEB7E1A31EBB14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4899C389797DCB9211E6EAD /* JSQMessagesCollectionViewCellIncoming.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSQMessagesCollectionViewCellIncoming.xib; sourceTree = "<group>"; };
 		C556D29B4FF47DE5F82022A1 /* JSQMessageData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSQMessageData.h; sourceTree = "<group>"; };
 		C916AF59620E2ECE9442A47D /* JSQLocationMediaItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSQLocationMediaItem.h; sourceTree = "<group>"; };
@@ -244,6 +245,7 @@
 		50A2925641ECA481593FE413 /* JSQMessagesViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C190A3F4E5DEB7E1A31EBB14 /* Info.plist */,
 				4D6ECCA5D75DD15B0A0F6BF9 /* JSQMessages.h */,
 				7778B52423B37082D6FB4B57 /* Assets */,
 				038622B17125C078172A8A04 /* Categories */,
@@ -605,6 +607,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JSQMessagesViewController/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hexedbits.JSQMessages.JSQMessages;
@@ -624,6 +627,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JSQMessagesViewController/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hexedbits.JSQMessages.JSQMessages;
