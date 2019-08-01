@@ -32,6 +32,8 @@ FOUNDATION_EXPORT const unsigned char JSQMessagesVersionString[];
 #import "JSQMessagesCollectionViewCellOutgoing.h"
 #import "JSQMessagesTypingIndicatorFooterView.h"
 #import "JSQMessagesLoadEarlierHeaderView.h"
+#import "JSQMessagesTypingView.h"
+#import "JSQMessagesMediaPlaceholderView.h"
 
 //  Layout
 #import "JSQMessagesBubbleSizeCalculating.h"
@@ -75,6 +77,7 @@ FOUNDATION_EXPORT const unsigned char JSQMessagesVersionString[];
 #import "JSQMessagesMediaViewBubbleImageMasker.h"
 #import "JSQMessagesTimestampFormatter.h"
 #import "JSQMessagesToolbarButtonFactory.h"
+#import "JSQMessagesVideoThumbnailFactory.h"
 
 //  Categories
 #import "NSString+JSQMessages.h"
