@@ -1,0 +1,12 @@
+name: JSQMessagesViewController
+options:
+  bundleIdPrefix: com.hexedbits.JSQMessages
+  deploymentTarget:
+    iOS: "11.0"
+targets:
+  JSQMessagesViewController:
+    platform: iOS
+    scheme: {} # Generate default scheme
+    sources:
+      - path: JSQMessagesViewController
+    type: framework
