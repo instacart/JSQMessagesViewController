@@ -16,8 +16,13 @@
 //  Released under an MIT license: http://opensource.org/licenses/MIT
 //
 
-#ifndef JSQMessages_JSQMessages_h
-#define JSQMessages_JSQMessages_h
+#import <UIKit/UIKit.h>
+
+//! Project version number for JSQMessages.
+FOUNDATION_EXPORT double JSQMessagesVersionNumber;
+
+//! Project version string for JSQMessages.
+FOUNDATION_EXPORT const unsigned char JSQMessagesVersionString[];
 
 #import "JSQMessagesViewController.h"
 
@@ -77,5 +82,3 @@
 #import "UIImage+JSQMessages.h"
 #import "UIView+JSQMessages.h"
 #import "NSBundle+JSQMessages.h"
-
-#endif

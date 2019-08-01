@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "945666E8168F37327F04AF48"
-               BuildableName = "JSQMessagesViewController.framework"
-               BlueprintName = "JSQMessagesViewController"
+               BlueprintIdentifier = "8D59CC8D9A4901200BCD77D6"
+               BuildableName = "JSQMessages.framework"
+               BlueprintName = "JSQMessages"
                ReferencedContainer = "container:JSQMessagesViewController.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,14 +32,18 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "945666E8168F37327F04AF48"
-            BuildableName = "JSQMessagesViewController.framework"
-            BlueprintName = "JSQMessagesViewController"
+            BlueprintIdentifier = "8D59CC8D9A4901200BCD77D6"
+            BuildableName = "JSQMessages.framework"
+            BlueprintName = "JSQMessages"
             ReferencedContainer = "container:JSQMessagesViewController.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <CommandLineArguments>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
+      <CodeCoverageTargets>
+      </CodeCoverageTargets>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -54,12 +58,14 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "945666E8168F37327F04AF48"
-            BuildableName = "JSQMessagesViewController.framework"
-            BlueprintName = "JSQMessagesViewController"
+            BlueprintIdentifier = "8D59CC8D9A4901200BCD77D6"
+            BuildableName = "JSQMessages.framework"
+            BlueprintName = "JSQMessages"
             ReferencedContainer = "container:JSQMessagesViewController.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <CommandLineArguments>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -73,12 +79,14 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "945666E8168F37327F04AF48"
-            BuildableName = "JSQMessagesViewController.framework"
-            BlueprintName = "JSQMessagesViewController"
+            BlueprintIdentifier = "8D59CC8D9A4901200BCD77D6"
+            BuildableName = "JSQMessages.framework"
+            BlueprintName = "JSQMessages"
             ReferencedContainer = "container:JSQMessagesViewController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+      </CommandLineArguments>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
